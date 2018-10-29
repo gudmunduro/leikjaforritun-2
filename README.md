@@ -1,3 +1,3 @@
 # Verkefni 2/3
 
-[Wiki](/gudmunduroh/leikjaforritun-2/wiki)
+[Wiki](https://github.com/gudmunduroh/leikjaforritun-2/wiki)
