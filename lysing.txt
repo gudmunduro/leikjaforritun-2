@@ -1,0 +1,5 @@
+Höfundur: Guðmundur Óli
+
+Leikurinn er bara einflaldur kappaksturleikur þar sem þú átt að reyna að komast hringinn á undan hinum "AI" bílnum.  Brautin er reyndar óvenjulega sleip þennan daginn svo það er soldið erfitt að keyra.  Bílnum er stýrt mað örfunum á lyklaborðinu.
+
+Heimildir: http://stackoverflow.com/, https://answers.unity.com, https://docs.unity3d.com

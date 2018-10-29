@@ -6,6 +6,8 @@ using UnityEngine.UI;
 public class GameController : MonoBehaviour {
 
     public GameObject scoreBoard;
+    public GameObject startMenu;
+    public Button startButton;
     public Text scoreText1;
     public Text scoreText2;
     public int lapsForPlayer;
@@ -16,9 +18,13 @@ public class GameController : MonoBehaviour {
 	void Start () {
         scoreBoard.SetActive(false);
 
-        lapsForPlayer = -1;
-        lapsForOpponent = -1;
+        lapsForPlayer = 0;
+        lapsForOpponent = 0;
 
+        startButton.onClick.AddListener(() =>
+        {
+            StartGame();
+        });
     }
 	
 	void Update () {
@@ -31,6 +37,11 @@ public class GameController : MonoBehaviour {
         scoreText2.text = secondPlace + " - " + "DNF";
 
         scoreBoard.SetActive(true);
+    }
+
+    private void StartGame()
+    {
+        startMenu.SetActive(false);
     }
 
     public void OnFinishLineEnter(string car)
